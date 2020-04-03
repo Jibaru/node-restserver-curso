@@ -14,6 +14,6 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 // ====================
 let urlDB = (process.env.NODE_ENV === 'dev')
     ? 'mongodb://localhost:27017/cafe'
-    : 'mongodb+srv://admin:pU82tqU4bfFOnvcJ@cluster0-cstnp.mongodb.net/cafe';
+    : process.env.MONGO_URI;
 
 process.env.URLDB = urlDB;
