@@ -1,4 +1,4 @@
-// ====================
+﻿// ====================
 //  Puerto
 // ====================
 process.env.PORT = process.env.PORT || 3000;
@@ -35,7 +35,7 @@ process.env.URLDB = urlDB;
 // ====================
 // Google Client Id
 // ====================
-process.env.CLIENT_ID = '474558847469-fl77c1os936h4dmhhdbeameu81qrlei8.apps.googleusercontent.com';
+process.env.CLIENT_ID = '474558847469-ihbpniq9vnll1j2262pn5brpqts7hbe7.apps.googleusercontent.com';
 
 // ESTABLECER EN HEROKU
 // heroku config:set VARIABLE_ENTORNO="valor"
